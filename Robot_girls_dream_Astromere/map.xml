@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+    <!--このテンプレートはMapperAssistによって出力されました
+     より正確な情報はRFM公式ホームページを参照してください-->
+    <!--マップ名 ※必須※-->
+    <name>ロボット少女は夢を見る ～アストロメア～</name>
+    <!--マップバージョン ※必須※-->
+    <version>1.1.1</version>
+    <!--製作者 ※必須※-->
+    <authors type="arrange">
+        
+    <author type="original">DeskClub Games</author>
+    <author uuid="aac23368-f279-4c75-8e32-25d92b368244"/>
+    </authors>
+    <!--各種地点 ※必須※-->
+    <location>
+        <player>89.53433468529934,42.0,36.50132181559475,180.01727,0.44956356</player>
+        <hunter>89.39699927842142,42.0,20.300000011920933,2.7427979,7.049708</hunter>
+        <jail>131.49834875984672,95.5,122.54148354967977,178.23804,18.149916</jail>
+        <rejail1>109.55649542085186,42.0,-9.452759365655163,28.538124,8.099495</rejail1>
+        <rejail2>13.30689193031137,42.0,128.3342469372534,175.38504,20.54947</rejail2>
+        <opg>89.54770102224595,42.0,36.564726211052786,179.74231,0.6000167</opg>
+        <shop>49.50970991670795,42.0,21.300065781342028,180.04332,8.850367</shop>
+    </location>
+    <start>
+        <membrane>12</membrane>
+        <bone>12</bone>
+        <feather>12</feather>
+    </start>
+    <time>25</time>
+    <auto_end>true</auto_end>
+    <watch>true</watch>
+    <timezone>1</timezone>
+    <field>0</field>
+    <spblock>0</spblock>
+<subtitle>ROBOT BATTLE!!</subtitle>
+<desc>ゲーム『ロボット少女は夢を見る-RobotBattleChampionship-』の舞台である、,都市「アストロメア」を再現、RFM用に調整したマップです。,ダークオークのドアは開きません。</desc>
+<auto_nightvision active="true"/>
+<regions>
+        
+    <region active="true" id="OPG" max="111,44,56" min="67,41,19" type="opg"/>
+    <region active="false" id="HunterZone" max="25,49,-11" min="16,45,-25" type="hunterzone"/>
+
+    </regions>
+<landmarks>
+    <landmark icon="SEA_LANTERN" id="アストロメアドーム" loc="89.47584154325652,42.0,36.71720658027259"/>
+    <landmark icon="EMERALD_BLOCK" id="廃棄地区_スィンの家" loc="112.39360947428798,42.0,-10.415784292181677"/>
+    <landmark icon="GLASS" id="研究地区_ガラスドーム" loc="37.48699565303316,45.0,-14.549588218572802"/>
+    <landmark icon="LIME_TERRACOTTA" id="住宅地区_小学校" loc="154.11339871923494,42.0,25.863919705838285"/>
+    <landmark icon="GRASS_BLOCK" id="住宅地区_児童公園" loc="175.31562518977472,42.0,54.45427717005059"/>
+    <landmark icon="PRISMARINE_BRICKS" id="高級地区_ツインタワー(左)" loc="157.58417667567338,44.0,118.5421899216298"/>
+    <landmark icon="POLISHED_GRANITE" id="高級地区_大学" loc="170.0651870440842,43.0,86.39075901985143"/>
+    <landmark icon="SMOOTH_QUARTZ" id="高級地区_警察署" loc="123.15449704924674,42.0,82.69984602084612"/>
+    <landmark icon="OAK_LEAVES" id="海岸公園地区_橋の下通り" loc="89.63755667616219,39.0,93.5095917960573"/>
+    <landmark icon="POLISHED_DIORITE" id="港地区_灯台" loc="-10.670475797684674,42.0,128.50992228394688"/>
+    <landmark icon="BASALT" id="港地区_路地裏" loc="31.517883263501798,42.0,74.1931340066853"/>
+    <landmark icon="GREEN_TERRACOTTA" id="商業地区_スミスの作業場" loc="-8.03445935911721,42.0,41.05607675063266"/>
+    <landmark icon="RED_TERRACOTTA" id="商業地区_カンフードラゴン" loc="37.64559443232153,42.0,50.58530334202986"/>
+    </landmarks>
+
+<npcs>
+    <npc loc="-3,42,40"/>
+    <npc loc="87,42,-8"/>
+    <npc loc="165,42,16"/>
+    <npc loc="183,45,58"/>
+    <npc loc="127,42,84"/>
+    <npc loc="57,42,122"/>
+    <npc loc="28,42,71"/>
+    <npc loc="7,45,-12"/>
+</npcs>
+    <size hunter="3" map="L"/>
+</map>
