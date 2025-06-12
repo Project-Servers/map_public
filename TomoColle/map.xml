@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+    <!--マップ名 ※必須※-->
+    <name>トモダチコレクション</name>
+    <!--マップバージョン ※必須※-->
+    <version>1.0.0</version>
+    <!--製作者 ※必須※-->
+    <authors teamname="（有）矢場井工務店" type="team">
+        <author uuid = "1ea382a9-7ba3-4ab6-85ee-5df5f7c6af18">Takashing_1185</author>
+        <author uuid = "495d648c-d580-4251-9317-543274595c05">inazuma0415</author>
+        <author uuid = "1de19f0e-b5d2-4415-a478-961c71bfd04e">Syuryu0919</author>
+        <author uuid = "1b873e15-6dec-4833-a65c-17530997ed7d">creamhunter1106</author>
+        <author uuid = "80940099-8aa8-4873-9b55-ef90aa31408d">reokunchan</author>
+        <author uuid = "83980b5a-761f-413c-9c3d-97549885f7a7">ayamaru821_jp</author>
+        <author uuid = "73d1cf65-f7f3-4c18-a03e-7ee54b719b4c">yabaicookie</author>
+        <author uuid = "9e4f528b-984b-4e42-980c-46f1edbe2359">chil_felun</author>
+        <author uuid = "ff2550f8-4285-4c2a-92c7-7f088ef0d265">takumit1382</author>
+        <author uuid = "53b77de1-e7fe-412c-a68c-f66163c6c5a6">yuu737</author>
+        <author uuid = "f223716f-ea30-44eb-9cd1-edf6e44f02eb">minomino85</author>
+    </authors>
+    <!--各種地点 ※必須※-->
+    <location>
+        <player>8.419053584243724,65.0,9.431469339488489,-179.09985,18.299953</player>
+        <hunter>-58.63122529312811,63.0,19.50853900002234,-91.344635,0.8999185</hunter>
+        <jail>-32.544939541629404,30.5,-43.57999398959025,-180.1546,20.999825</jail>
+        <rejail1>-68.01450626476445,70.0,-37.701052800052,-88.05652,-0.45014268</rejail1>
+        <rejail2>114.1324212876949,65.0,-60.42539122161061,-271.0614,3.2998772</rejail2>
+        <opg>-33.52001713730147,63.0,19.376853766155207,-269.99734,0.7504926</opg>
+        <shop>-7.404580697576546,70.0,-52.30000001192094,-357.46143,7.049853</shop>
+    </location>
+    <start>
+        <membrane>12</membrane>
+        <bone>12</bone>
+        <feather>12</feather>
+    </start>
+    <timezone>1</timezone>
+    <field>0</field>
+    <spblock>2</spblock>
+    <desc>3DSのゲーム,「トモダチコレクション 新生活」を再現しました。,本当に新作ありがとう任天堂,愛してるﾁｭｯﾁｭ（はぁと）</desc>
+    <subtitle>祝！トモコレ新作発売決定！！！</subtitle>
+    　　<size map="M" hunter="3"/>
+
+    <regions>
+        <region active="false" id="OPG" max="-32,66,25" min="-61,62,13" type="opg"/>
+    </regions>
+
+    <landmarks>
+        <landmark icon="OAK_BOAT" id="輸入品店" loc="-54.128486772544015,65.0,-2.5239336542869033"/>
+        <landmark icon="NOTE_BLOCK" id="音楽堂" loc="-32.37454946301499,68.0,-23.308642514549504"/>
+        <landmark icon="OAK_SIGN" id="ランキング掲示板" loc="22.208379460151257,63.0,-25.7157665600762"/>
+        <landmark icon="IRON_DOOR" id="マンション" loc="-46.93852929987246,70.0,-47.276395998213964"/>
+        <landmark icon="MUSHROOM_STEW" id="スーパー" loc="-83.48003436185499,67.9375,13.423418144512064"/>
+        <landmark icon="TURTLE_HELMET" id="帽子屋" loc="-89.28343611110927,73.9375,-28.699999988079064"/>
+        <landmark icon="CHEST" id="骨董品屋" loc="-98.24804931690014,80.0,-55.747754559048694"/>
+        <landmark icon="LEATHER_CHESTPLATE" id="服屋" loc="-84.93865997958919,84.0,-87.42722052873151"/>
+        <landmark icon="LOOM" id="インテリアショップ" loc="1.8492299971669186,90.0,-100.75222240510396"/>
+        <landmark icon="BEACON" id="展望台" loc="23.480729970840443,88.9375,-84.37344076722648"/>
+        <landmark icon="DARK_OAK_SAPLING" id="公園" loc="64.76702262767245,90.0,-92.01830514297274"/>
+        <landmark icon="POTION" id="喫茶店" loc="98.28836133299984,65.0,-59.570735540528766"/>
+    </landmarks>
+
+    <npcs>
+    <npc loc="-12.5,63,9.5"/>
+    <npc loc="21.5,63,-22.5"/>
+    <npc loc="-62.5,70,-45.5"/>
+    <npc loc="-79.5,68,19.5"/>
+    <npc loc="-113.5,74,-39.5"/>
+    <npc loc="-116.5,83,-81.5"/>
+    <npc loc="-50.5,89,-82.5"/>
+    <npc loc="-14.5,98,-101.5"/>
+    <npc loc="30.5,122,-91.5"/>
+    <npc loc="49.5,89,-100.5"/>
+    <npc loc="108.5,65,-62.5"/>
+    </npcs>
+</map>
