@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<map>
+            
+    <!-- マップ名 ※必須※ -->
+    <name>ペリカンタウン</name>
+    
+    <!-- マップバージョン ※必須※ -->
+    <version>1.0.0</version>
+        
+    
+    <!-- 製作者  ※必須※　複数人指定可能 -->
+    <authors type="arrange">
+        <author type="original">スターデューバレー</author>
+        <author uuid = "1ea382a9-7ba3-4ab6-85ee-5df5f7c6af18">Takashing_1185</author>
+        <author uuid = "495d648c-d580-4251-9317-543274595c05">inazuma0415</author>
+        <author uuid = "1de19f0e-b5d2-4415-a478-961c71bfd04e">Syuryu0919</author>
+        <author uuid = "80940099-8aa8-4873-9b55-ef90aa31408d">reokunchan</author>
+        <author uuid = "9e4f528b-984b-4e42-980c-46f1edbe2359">chil_felun</author>
+        
+    </authors>
+    
+    <!-- サブタイトルを設定します -->
+    <subtitle>時間が無限に溶ける神ゲー</subtitle>
+            
+    
+    <!-- ゲーム開始時/途中参加時に配られる
+アイテムの個数 半角数字で設定 未設定の場合5個に設定されます-->
+    <start>
+        <egg>12</egg>
+        <bone>12</bone>
+        <feather>12</feather>
+    </start>
+            
+    
+    <!-- 各種地点 ※必須※-->
+    <location>
+        <player>132.5,42,-101.5,90,0</player>
+        <hunter>141.5,42,-59.5,180,0</hunter>
+        <jail>144.5,44.5,-116.5,90,0</jail>
+        <rejail1>196.5,42,-158.5,90,0</rejail1>
+        <rejail2>34.5,45.0,-123.5,-90,0</rejail2>
+        <opg>141.5,42.0,-73.5,0,0</opg>
+        <shop>77.5,42.0,-125.5,-90,0</shop>
+    </location>
+    
+    <desc>§b PCゲーム「スターデューバレー」より、,ペリカンタウンを再現しました。</desc>
+           
+    <auto_end>true</auto_end>
+    <auto_nightvision active="true"/>
+    <size hunter="2-3" map="M"/>
+    
+    <regions>
+        <region active="false" id="OPG" max="134,46,-58" min="148,41,-77" type="opg"/>
+    </regions>
+
+    <npcs>
+    <npc loc="120.5,42,-120"/>
+    <npc loc="107.5,42,-67.5"/>
+    <npc loc="187.5,42,-84.5"/>
+    <npc loc="171.5,42,-147.5"/>
+    <npc loc="171.5,42,-171.5"/>
+    <npc loc="84.5,42,-236.5"/>
+    <npc loc="158.5,42,-208.5"/>
+    <npc loc="182.5,42,-234.5"/>
+    <npc loc="12.5,46,-166.5"/>
+    <npc loc="9.5,46,-85.5"/>
+</npcs>
+    
+</map>
