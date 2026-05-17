@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<map>
+    <!-- マップ名 ※必須※ -->
+    <name>絶望迷宮 -Second Season-</name>
+
+    <!-- マップバージョン ※必須※ -->
+    <version>1.0.0</version>
+
+    <desc>ただの迷路。,他ミッションもいけんこともない。</desc>
+    <size map="S"  hunter="2～"/>
+
+    <!-- サブタイトルを設定します -->
+    <subtitle>がんばえ～</subtitle>
+
+<!-- 製作者  ※必須※　複数人指定可能 -->
+ <authors>
+    <author uuid = "1ea382a9-7ba3-4ab6-85ee-5df5f7c6af18">Takashing_1185</author>
+ </authors>
+
+    <!-- ゲーム開始時/途中参加時に配られる
+アイテムの個数 半角数字で設定 未設定の場合5個に設定されます-->
+    <start>
+        <egg>12</egg>
+        <bone>12</bone>
+        <feather>12</feather>
+    </start>
+
+    <!-- ゲーム自動終了  true/falseでの記述 -->
+    <auto_end>true</auto_end>
+
+    <!-- スポーンを許可する友好モブ 複数指定可能-->
+    <mob_spawn>
+        <type>POLAR_BEAR</type>
+        <type>VILLAGER</type>
+        <type>SALMON</type>
+    </mob_spawn>
+
+    <location>
+        <hunter>-57.5,59,-94.5,-90,0</hunter>
+        <player>-41.5,59,-94.5,90,0</player>
+        <opg>-41.5,59,-94.5,90,0</opg>
+        <jail>-49.5,68,-94.5,-90,0</jail>
+        <rejail1>-41.5,59,-94.5,90,0</rejail1>
+        <rejail2>-41.5,59,-94.5,90,0</rejail2>
+        <shop>-49.5,58,-94.5,-90,0</shop>
+    </location>
+
+<!-- NPCの出現位置を設定します。
+※注意:1※一点に集中して設定せず位置をある程度バラしてください。
+     復活地点や初期スポーンなどからも一定の距離をあけてください。
+※注意:2※プレイヤーが触れられる位置を設定してください。NPCですので空中などには設定しないでください。
+※注意:3※最低5地点を設定してください。(ver10.9.0時点)
+     今後のアップデートにて必要最低地点数は変更される場合がありますが、現時点では未定です。多い分には問題ありません。 -->
+<npcs>
+    <npc loc="-49.5,58,-85.5"/>
+    <npc loc="-49.5,58,-103.5"/>
+    <npc loc="-40.5,59,-94.5"/>
+    <npc loc="-58.5,59,-94.5"/>
+    <npc loc="-49.5,58,-109.5"/>
+    <npc loc="-34.5,58,-94.5"/>
+    <npc loc="-49.5,58,-79.5"/>
+    <npc loc="-94.5,58,-94.5"/>
+</npcs>
+
+    <auto_nightvision active="true"/>
+    <spblock>1</spblock>
+    <submap/>
+</map>
