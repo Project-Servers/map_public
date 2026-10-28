@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map>
+  <name>スプラトゥーン</name>
+  <version>2.2.1</version>
+  <authors>
+    <author uuid="1de19f0e-b5d2-4415-a478-961c71bfd04e" />
+  </authors>
+  <location>
+    <player>144,35,-83,0.0,0.0</player>
+    <hunter>144.0,35.0,-142.0,0.0,0.0</hunter>
+    <jail>170.0,35.0,187.0,180.0,0.0</jail>
+    <rejail1>254.0,35.0,74.0,180.0,0.0</rejail1>
+    <rejail2>54.0,35.0,-62.0,0.0,0.0</rejail2>
+    <opg>144.0,34.0,-111.5,0.180,0.0</opg>
+    <shop>146.0,32.0,7.0,-180.90,0.0</shop>
+  </location>
+  <start>
+    <egg>12</egg>
+    <bone>12</bone>
+    <feather>12</feather>
+  </start>
+  <spblock>2</spblock>
+  <auto_nightvision active="false" />
+  <desc>§e出典：Splatoon、Splatoon2,§a現在稼働しているステージは、、、、,§bガンガゼ野外音楽堂§f,(§a広さは東京ドーム約0.11個分)§f,§bホッケふ頭§f,(§a広さは東京ドーム約0.19個分)§f),§bザトウマーケット§f,(§a広さは東京ドーム約0.17個分)§f)§r</desc>
+  <subtitle>イカしたRFMを楽しもうぜ！！</subtitle>
+  <size map="M" hunter="3" />
+  <regions>
+    <region active="true" id="通常OPG" min="148,38,-140" max="139,33,-110" type="opg" />
+  </regions>
+  <landmarks>
+    <landmark id="Shop(ホッケふ頭中央)" icon="crafting_table" loc="146.0,32.0,7.0" />
+    <landmark id="ザトウマーケット中央付近" icon="bookshelf" loc="267.0,34.0,6.0" />
+    <landmark id="ガンガゼ野外音楽堂中央付近" icon="lime_shulker_box" loc="60.0,32.0,7.0" />
+    <landmark id="制御盤" icon="command_block" loc="144.0,41.0,-113.0" />
+    <landmark id="OPG" icon="stone_bricks" loc="144.0,34.0,-111.5" />
+  </landmarks>
+  <npcs>
+    <npc loc="164.5,30,-26.5" />
+    <npc loc="137.0,34,47.0" />
+    <npc loc="235.0,38,54.0" />
+    <npc loc="293.0,38,-42.0" />
+    <npc loc="264.0,34,3.5" />
+    <npc loc="273.0,34,47.5" />
+    <npc loc="248.5,38,-26.5" />
+    <npc loc="121.0,34,-32.0" />
+    <npc loc="160.5,30,44.5" />
+    <npc loc="88.5,35,26.5" />
+    <npc loc="42.5,30,19.5" />
+    <npc loc="45.5,30,-25.5" />
+    <npc loc="77.0,32,-14.0" />
+  </npcs>
+  <watch>false</watch>
+  <opg_tp>false</opg_tp>
+  <timezone>1</timezone>
+  <field>0</field>
+</map>
